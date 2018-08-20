@@ -6,7 +6,7 @@ module.exports = {
         clean: 60 * 1000    // How often to clean out expired OTPs (in ms)
     },
     endpoints: {
-        port: 3099,
+        port: 8001,
         create: '/create',
         verify: '/verify'
     }
